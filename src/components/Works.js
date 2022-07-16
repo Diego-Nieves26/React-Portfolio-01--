@@ -14,14 +14,14 @@ const Works = () => {
       </p>
       <ul className="projects">
         {Data.map((project) => (
-          <li class="card">
-            <div class="header">
-              <div class="img-box">
-                <img src={project.img} alt="" />
+          <li className="card" key={project.id}>
+            <div className="header">
+              <div className="img-box">
+                <img src={project.img} alt="Img-Proyecto" />
               </div>
             </div>
-            <div class="content">
-              <h1 class="title">{project.name}</h1>
+            <div className="content">
+              <h1 className="title">{project.name}</h1>
               <div>
                 <a target="_blank" rel="noreferrer" href={project.gitHub}>
                   <i className="bx bxl-github"></i>

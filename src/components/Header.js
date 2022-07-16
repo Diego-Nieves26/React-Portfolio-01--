@@ -3,8 +3,16 @@ import React from "react";
 import Nav from "./Nav";
 import foto from "../assets/Diego-Linkidn.jpg";
 import { Link } from "react-scroll";
+import { useDispatch } from "react-redux";
+import { setSeeSection } from "../store/slices/seeSection.slice";
 
 const Header = () => {
+  const dispatch = useDispatch();
+  const activeCard = (e) => {
+    if (window.screen.width >= 1100) {
+      dispatch(setSeeSection(e));
+    }
+  };
   return (
     <header>
       <Nav />
@@ -48,11 +56,12 @@ const Header = () => {
             CV
           </button>
           <Link
-            className="btn-header  btn-cursor-hover"
+            className="btn-header btn-cursor-hover"
             to="Contact"
             offset={-75}
             smooth={true}
             duration={1000}
+            onClick={() => activeCard("Contact")}
           >
             Contactame
           </Link>

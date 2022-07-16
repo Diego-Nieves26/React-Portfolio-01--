@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import { useDispatch, useSelector } from "react-redux";
 import { animateScroll as scroll } from "react-scroll";
 import { setSeeSection } from "../store/slices/seeSection.slice";
+import { actionNav } from "../store/slices/seeSection.slice";
 
 const Nav = () => {
   const [scrollToTop, setScrollToTop] = useState(false);
@@ -13,13 +14,17 @@ const Nav = () => {
   let y;
 
   window.onscroll = () => {
+    dispatch(actionNav());
     y = window.scrollY;
-    if (y >= 600) {
+    if (y >= 550) {
       setScrollToTop(true);
     } else {
       setScrollToTop(false);
     }
   };
+  window.addEventListener("load", () => {
+    dispatch(actionNav());
+  });
 
   const activeCard = (e) => {
     if (window.screen.width >= 1100) {
@@ -36,7 +41,7 @@ const Nav = () => {
               activeLink === "AbautMe" ? "active-link" : "navigation-links"
             }`}
             to="AbautMe"
-            offset={-75}
+            offset={window.screen.width >= 561 ? -20 : -75}
             smooth={true}
             duration={500}
             onClick={() => activeCard("AbautMe")}
@@ -51,7 +56,7 @@ const Nav = () => {
               activeLink === "Information" ? "active-link" : "navigation-links"
             }`}
             to="Information"
-            offset={-75}
+            offset={window.screen.width >= 561 ? -20 : -75}
             smooth={true}
             duration={500}
             onClick={() => activeCard("Information")}
@@ -66,7 +71,7 @@ const Nav = () => {
               activeLink === "Projects" ? "active-link" : "navigation-links"
             }`}
             to="Projects"
-            offset={-75}
+            offset={window.screen.width >= 561 ? -20 : -75}
             smooth={true}
             duration={500}
             onClick={() => activeCard("Projects")}
@@ -81,7 +86,7 @@ const Nav = () => {
               activeLink === "Contact" ? "active-link" : "navigation-links"
             }`}
             to="Contact"
-            offset={-75}
+            offset={window.screen.width >= 561 ? -20 : -75}
             smooth={true}
             duration={500}
             onClick={() => activeCard("Contact")}
