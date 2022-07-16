@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Header,
+  AbautMe,
+  Information,
+  Works,
+  Contact,
+  Loader,
+} from "./components";
+import { motion } from "framer-motion";
+import "./styles/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Loader />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.7, delay: 0.4 }}
+      >
+        <Header />
+        <main>
+          <AbautMe />
+          <Information />
+          <Works />
+          <Contact />
+          <footer>
+            <h4>Gracias por la visita.</h4>
+            <p>--Diego Nieves--</p>
+          </footer>
+        </main>
+      </motion.div>
+    </>
   );
 }
 

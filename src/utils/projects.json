@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "PokeApi",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Pokedex/main/src/assets/img.png",
+    "gitHub": "https://github.com/Diego-Nieves26/React-Pokedex.git",
+    "web": "https://lustrous-marigold-b9f6ee.netlify.app/",
+    "functionality": "Consumi la API 'PokeApi' para mostrar los pokemones, y sus caracteres, ",
+    "tecnologies": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "ReactJS",
+      "React Router Dom",
+      "Redux",
+      "Axios"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Crypto-Wall",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/Vue-Crypto-Wall/main/src/assets/img.png",
+    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
+    "web": "https://startling-dragon-f6444e.netlify.app/",
+    "functionality": "Consumi la API 'PokeApi' para mostrar los pokemones, y sus caracteres, ",
+    "tecnologies": ["HTML", "CSS", "Javascript", "Vuejs", "Fetch"]
+  },
+  {
+    "id": 3,
+    "name": "Ecommerce",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Ecommerce/main/src/assets/img.png",
+    "gitHub": "https://github.com/Diego-Nieves26/React-Ecommerce.git",
+    "web": "https://joyful-melomakarona-6f3db3.netlify.app",
+    "functionality": "Consumi la API 'PokeApi' para mostrar los pokemones, y sus caracteres, ",
+    "tecnologies": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "ReactJS",
+      "React Router Dom",
+      "Redux",
+      "Axios"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Weather-App",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Weather-App/main/src/assets/img.png",
+    "gitHub": "https://github.com/Diego-Nieves26/React-Weather-App.git",
+    "web": "https://polite-pithivier-90a030.netlify.app/",
+    "functionality": "Consumi la API 'PokeApi' para mostrar los pokemones, y sus caracteres, ",
+    "tecnologies": ["HTML", "CSS", "Javascript", "ReactJS", "Axios"]
+  },
+  {
+    "id": 5,
+    "name": "Rick-and-Morty",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Rick-and-Morty/main/src/assets/img.png",
+    "gitHub": "https://github.com/Diego-Nieves26/React-Rick-and-Morty.git",
+    "web": "https://zippy-gnome-4266db.netlify.app/",
+    "functionality": "Consumi la API 'PokeApi' para mostrar los pokemones, y sus caracteres, ",
+    "tecnologies": ["HTML", "CSS", "Javascript", "ReactJS", "Axios"]
+  },
+  {
+    "id": 6,
+    "name": "CRUD",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Crud/main/src/assets/img.png",
+    "gitHub": "https://github.com/Diego-Nieves26/React-Crud.git",
+    "web": "https://lighthearted-llama-74690e.netlify.app/",
+    "functionality": "Consumi la API 'PokeApi' para mostrar los pokemones, y sus caracteres, ",
+    "tecnologies": ["HTML", "CSS", "Javascript", "ReactJS", "Axios"]
+  }
+]

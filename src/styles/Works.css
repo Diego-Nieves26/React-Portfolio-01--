@@ -1,0 +1,66 @@
+#Proyectos > p {
+  font-size: 1rem;
+  padding: 15px 0;
+  line-height: 1.8em;
+  color: #999;
+}
+
+.proyect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+.proyect li {
+  width: 95%;
+  min-height: 280px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+  background-color: rgba(205, 205, 205, 0.15);
+}
+.proyect li img {
+  width: 95%;
+  height: 140px;
+  border-radius: 10px;
+}
+.proyect li h4 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+.proyect li div {
+  display: flex;
+  gap: 20px;
+}
+.proyect li div a {
+  display: block;
+  width: 50px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .proyect {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px 5px;
+    padding: 0;
+  }
+}

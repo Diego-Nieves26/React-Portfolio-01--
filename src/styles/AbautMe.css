@@ -1,0 +1,25 @@
+#AbautMe ul {
+  width: 80%;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+#AbautMe ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#AbautMe ul li h5 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#AbautMe ul li span {
+  color: #b5b5b5;
+}
