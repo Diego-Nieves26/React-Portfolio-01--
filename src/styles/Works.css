@@ -12,6 +12,7 @@
   height: 170px;
   transition: all 0.7s;
   overflow: hidden;
+  z-index: 9;
 }
 
 .card:hover {
