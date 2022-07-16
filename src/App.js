@@ -1,11 +1,4 @@
-import {
-  Header,
-  AbautMe,
-  Information,
-  Works,
-  Contact,
-  Loader,
-} from "./components";
+import { Header, AbautMe, Information, Works, Contact } from "./components";
 import { motion } from "framer-motion";
 import "./styles/App.css";
 

@@ -121,3 +121,9 @@ button:hover::before {
 button:hover {
   color: #111;
 }
+
+@media (min-width: 1100px) {
+  .form-contact {
+    margin-top: 50px;
+  }
+}
