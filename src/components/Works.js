@@ -6,34 +6,30 @@ import { useSelector } from "react-redux";
 const Works = () => {
   const active = useSelector((state) => state.seeSection);
   return (
-    <section id="Proyectos" className={`${active === "Proyectos" && "active"}`}>
+    <section id="Projects" className={`${active === "Projects" && "active"}`}>
       <h2 className="caption">Proyectos</h2>
-      <p>
+      <p className="paragraph">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corrupti
         libero vitae numquam eum culpa dolorem
       </p>
-      <ul className="proyect">
+      <ul className="projects">
         {Data.map((project) => (
-          <li key={project.id}>
-            <img src={project.img} alt="Img-proyect" />
-            <h4>{project.name}</h4>
-            <div>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={project.gitHub}
-                className="btn"
-              >
-                <i className="bx bxl-github"></i>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={project.web}
-                className="btn"
-              >
-                <i className="bx bx-windows"></i>
-              </a>
+          <li class="card">
+            <div class="header">
+              <div class="img-box">
+                <img src={project.img} alt="" />
+              </div>
+            </div>
+            <div class="content">
+              <h1 class="title">{project.name}</h1>
+              <div>
+                <a target="_blank" rel="noreferrer" href={project.gitHub}>
+                  <i className="bx bxl-github"></i>
+                </a>
+                <a target="_blank" rel="noreferrer" href={project.web}>
+                  <i className="bx bx-windows"></i>
+                </a>
+              </div>
             </div>
           </li>
         ))}

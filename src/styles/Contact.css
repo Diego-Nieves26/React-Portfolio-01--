@@ -1,4 +1,4 @@
-.form_contact {
+.form-contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -6,54 +6,51 @@
   margin-top: 30px;
 }
 
-/* From uiverse.io by @Alien14k */
-.form__group {
+.form-group {
   position: relative;
   width: 100%;
 }
 
-.form__field {
+.form-field {
   border: 1px solid #68d3ff !important;
-
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   box-sizing: border-box;
-  color: #999;
+  color: var(--paragraph-color);
   height: 40px;
   padding: 0rem 15px;
   width: 90%;
   background-color: rgba(22, 29, 37);
 }
 
-.form__group:nth-child(2) {
+.form-group:nth-child(2) {
   margin-left: 10%;
 }
 
-.form__group:nth-child(3) .form__field {
+.form-group:nth-child(3) .form-field {
   width: 100%;
   height: 120px;
   padding: 15px;
 }
 
-.form__field::placeholder {
+.form-field::placeholder {
   color: transparent;
 }
 
-.form__field:placeholder-shown ~ .form__label {
+.form-field:placeholder-shown ~ .form-label {
   top: 10px;
   border-right: none;
   border-left: none;
   border-top: none;
 }
 
-.form__label {
+.form-label {
   background-color: rgba(22, 29, 37);
-  border-left: 1px solid #68d3ff;
-  border-right: 1px solid #68d3ff;
-  border-top: 1px solid #68d3ff;
+  border-left: 1px solid var(--primary-color);
+  border-right: 1px solid var(--primary-color);
+  border-top: 1px solid var(--primary-color);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: #9b9b9b;
-
   display: block;
   font-size: 0.9em;
   margin-left: 10px;
@@ -64,21 +61,21 @@
   transition: 0.2s;
 }
 
-.form__field:focus {
+.form-field:focus {
   outline: none;
-  background-color: #0d1118;
+  background-color: var(--body-color);
 }
 
-.form__field:focus ~ .form__label {
-  background-color: #0d1118;
+.form-field:focus ~ .form-label {
+  background-color: var(--body-color);
 
-  border-right: 1px solid #68d3ff;
-  border-left: 1px solid #68d3ff;
+  border-right: 1px solid var(--primary-color);
+  border-left: 1px solid var(--primary-color);
 
-  border-top: 1px solid #68d3ff;
+  border-top: 1px solid var(--primary-color);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  color: #68d3ff;
+  color: var(--primary-color);
   font-size: 0.9em;
   margin-left: 10px;
   padding: 0 10px;
@@ -87,10 +84,9 @@
   transition: 0.2s;
 }
 
-/* From uiverse.io by @nikk7007 */
 button {
   padding: 0.8em 1.8em;
-  border: 2px solid #17c3b2;
+  border: 2px solid var(--primary-color);
   position: relative;
   overflow: hidden;
   background-color: transparent;
@@ -100,7 +96,7 @@ button {
   transition: 0.3s;
   z-index: 1;
   font-family: inherit;
-  color: #17c3b2;
+  color: var(--primary-color);
   cursor: pointer;
 }
 
@@ -112,7 +108,7 @@ button::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #17c3b2;
+  background: var(--primary-color);
   transition: 0.5s ease;
   display: block;
   z-index: -1;

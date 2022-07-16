@@ -63,13 +63,13 @@ const Nav = () => {
         <li>
           <Link
             className={`btn-cursor-hover ${
-              activeLink === "Proyectos" ? "active-link" : "navigation-links"
+              activeLink === "Projects" ? "active-link" : "navigation-links"
             }`}
-            to="Proyectos"
+            to="Projects"
             offset={-75}
             smooth={true}
             duration={500}
-            onClick={() => activeCard("Proyectos")}
+            onClick={() => activeCard("Projects")}
           >
             <i className="bx bxs-briefcase"></i>
             <span>Proyectos</span>

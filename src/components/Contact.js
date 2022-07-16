@@ -7,30 +7,30 @@ const Contact = () => {
   return (
     <section id="Contact" className={`${active === "Contact" && "active"}`}>
       <h2 className="caption">Contactame</h2>
-      <form className="form_contact">
-        <div className="form__group">
+      <form className="form-contact">
+        <div className="form-group">
           <input
             type="text"
-            className="form__field btn-cursor-hover-text"
+            className="form-field btn-cursor-hover-text"
             placeholder="Nombre"
           />
-          <label className="form__label">Nombre</label>
+          <label className="form-label">Nombre</label>
         </div>
-        <div className="form__group">
+        <div className="form-group">
           <input
             type="email"
-            className="form__field btn-cursor-hover-text"
+            className="form-field btn-cursor-hover-text"
             placeholder="Email"
           />
-          <label className="form__label">Email</label>
+          <label className="form-label">Email</label>
         </div>
-        <div className="form__group">
+        <div className="form-group">
           <textarea
             type="text"
-            className="form__field btn-cursor-hover-text"
+            className="form-field btn-cursor-hover-text"
             placeholder="Mensaje"
           />
-          <label className="form__label">Mensaje</label>
+          <label className="form-label">Mensaje</label>
         </div>
         <button className="btn-cursor-hover"> Enviar</button>
       </form>

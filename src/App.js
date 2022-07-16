@@ -12,7 +12,6 @@ import "./styles/App.css";
 function App() {
   return (
     <>
-      <Loader />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

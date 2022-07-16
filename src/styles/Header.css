@@ -87,9 +87,6 @@ header > div {
   align-items: center;
 }
 
-/*button*/
-
-/* From uiverse.io by @nikk7007 */
 .btn-header {
   width: 140px;
   height: 50px;
@@ -129,10 +126,12 @@ header > div {
 .btn-header:hover {
   color: #111;
 }
+
 button svg {
   margin-right: 5px;
   height: 16px;
 }
+
 button svg polyline,
 button svg line {
   animation: docs 1s infinite;
