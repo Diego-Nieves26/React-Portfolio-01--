@@ -172,7 +172,6 @@ footer p {
     position: absolute;
     top: 60px;
     right: 167px;
-    background-color: var(--color-section);
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
     padding: 0;
     overflow-x: hidden;
@@ -190,7 +189,7 @@ footer p {
     left: -100%;
     opacity: 0;
     transition: 1s;
-    background: none;
+    min-height: 580px;
   }
 
   .active {

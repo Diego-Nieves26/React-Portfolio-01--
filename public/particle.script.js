@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 80,
+      value: 28,
       density: {
         enable: true,
         value_area: 800,
@@ -13,11 +13,11 @@ particlesJS("particles-js", {
     shape: {
       type: "circle",
       stroke: {
-        width: 0,
-        color: "#000000",
+        width: 3,
+        color: "#d2a6a6",
       },
       polygon: {
-        nb_sides: 5,
+        nb_sides: 12,
       },
       image: {
         src: "img/github.svg",
@@ -26,13 +26,13 @@ particlesJS("particles-js", {
       },
     },
     opacity: {
-      value: 0.5,
-      random: false,
+      value: 0.12025590456491421,
+      random: true,
       anim: {
         enable: false,
-        speed: 1,
-        opacity_min: 0.1,
-        sync: false,
+        speed: 0.9744926547616141,
+        opacity_min: 0.15429467033725558,
+        sync: true,
       },
     },
     size: {
@@ -47,36 +47,36 @@ particlesJS("particles-js", {
     },
     line_linked: {
       enable: true,
-      distance: 150,
+      distance: 252.52724532232722,
       color: "#ffffff",
-      opacity: 0.4,
-      width: 1,
+      opacity: 0.09469771699587272,
+      width: 2,
     },
     move: {
       enable: true,
-      speed: 6,
-      direction: "none",
-      random: false,
-      straight: false,
-      out_mode: "out",
+      speed: 10,
+      direction: "top",
+      random: true,
+      straight: true,
+      out_mode: "bounce",
       bounce: false,
       attract: {
-        enable: false,
+        enable: true,
         rotateX: 600,
         rotateY: 1200,
       },
     },
   },
   interactivity: {
-    detect_on: "canvas",
+    detect_on: "window",
     events: {
       onhover: {
         enable: true,
-        mode: "repulse",
+        mode: "bubble",
       },
       onclick: {
         enable: true,
-        mode: "push",
+        mode: "repulse",
       },
       resize: true,
     },
@@ -88,14 +88,14 @@ particlesJS("particles-js", {
         },
       },
       bubble: {
-        distance: 400,
-        size: 40,
+        distance: 287.7122877122877,
+        size: 15,
         duration: 2,
-        opacity: 8,
+        opacity: 1,
         speed: 3,
       },
       repulse: {
-        distance: 200,
+        distance: 335.6643356643357,
         duration: 0.4,
       },
       push: {

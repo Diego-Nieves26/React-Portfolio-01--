@@ -23,10 +23,20 @@ const Works = () => {
             <div className="content">
               <h1 className="title">{project.name}</h1>
               <div>
-                <a target="_blank" rel="noreferrer" href={project.gitHub}>
+                <a
+                  className="btn-cursor-hover"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.gitHub}
+                >
                   <i className="bx bxl-github"></i>
                 </a>
-                <a target="_blank" rel="noreferrer" href={project.web}>
+                <a
+                  className="btn-cursor-hover"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.web}
+                >
                   <i className="bx bx-windows"></i>
                 </a>
               </div>
