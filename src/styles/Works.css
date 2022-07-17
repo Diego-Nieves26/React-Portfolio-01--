@@ -42,7 +42,7 @@
 }
 
 .card .content .title {
-  font-size: 1.1em;
+  font-size: 1.5em;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -60,9 +60,10 @@
 }
 
 .card .content {
-  display: block;
+  display: flex;
   text-align: justify;
   margin: 0 18px;
+  padding: 10px 0;
 }
 
 .card .content > div {
@@ -81,7 +82,7 @@
 }
 
 .card .content a:hover {
-  border-bottom: 1px solid #1d8122;
+  transform: scale(1.2);
 }
 
 @media (min-width: 600px) {

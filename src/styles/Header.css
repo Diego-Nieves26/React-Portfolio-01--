@@ -69,11 +69,21 @@ header > div {
 .presentation ul {
   display: flex;
   gap: 10px;
+  margin-top: 10px;
 }
 
-.presentation ul li i {
+.presentation ul li a i {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+
+.presentation ul li a:hover i {
+  font-size: 1.7rem;
+}
+
+.presentation ul li a:focus i {
+  font-size: 0.9rem;
 }
 
 .btnCvContact {

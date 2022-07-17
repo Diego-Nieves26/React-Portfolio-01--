@@ -26,18 +26,43 @@ const Header = () => {
           <h2>Desarrollador Front-end</h2>
           <ul>
             <li>
-              <i className="bx bxl-github"></i>
+              <a
+                className="btn-cursor-hover"
+                href="https://github.com/Diego-Nieves26"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bx bxl-github"></i>
+              </a>
             </li>
             <li>
-              <i className="bx bxl-linkedin"></i>
+              <a
+                className="btn-cursor-hover"
+                href="https://www.linkedin.com/in/diego-nieves-04b409242/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bx bxl-linkedin"></i>
+              </a>
             </li>
             <li>
-              <i className="bx bxl-stack-overflow"></i>
+              <a
+                className="btn-cursor-hover"
+                href="https://es.stackoverflow.com/users/295820/diego-nieves"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bx bxl-stack-overflow"></i>
+              </a>
             </li>
           </ul>
         </div>
         <div className="btnCvContact">
-          <button className="download-button btn-header btn-cursor-hover">
+          <a
+            className="download-button btn-header btn-cursor-hover"
+            href="../assets/CV.pdf"
+            target="_blank"
+          >
             <svg
               className="css-i6dzq1"
               strokeLinejoin="round"
@@ -54,7 +79,7 @@ const Header = () => {
               <line y2="3" x2="12" y1="15" x1="12"></line>
             </svg>
             CV
-          </button>
+          </a>
           <Link
             className="btn-header btn-cursor-hover"
             to="Contact"
