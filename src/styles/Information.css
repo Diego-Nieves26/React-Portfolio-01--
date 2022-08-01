@@ -117,15 +117,15 @@
 }
 
 .code-skills-card:nth-child(1) label h4 {
-  background: linear-gradient(135deg, #124559, #1b3456);
+  background: linear-gradient(135deg, #32d4a4, #5332d4);
 }
 
 .code-skills-card:nth-child(2) label h4 {
-  background: linear-gradient(135deg, #124559, #282854);
+  background: linear-gradient(135deg, #32d4a4, #3262d4);
 }
 
 .code-skills-card:nth-child(3) label h4 {
-  background: linear-gradient(135deg, #124559, #383838);
+  background: linear-gradient(135deg, #32d4a4, #d432b3);
 }
 
 .code-skills-card label h5 {

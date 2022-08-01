@@ -48,6 +48,7 @@ nav ul li {
   font-size: 10px;
   letter-spacing: 0.05em;
   color: var(--tertiary-color);
+  transition: 0.3s;
 }
 
 .navigation-links i {
@@ -61,7 +62,7 @@ nav ul li {
 
 .navigation-links:hover:before {
   width: 130%;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
   top: -5px;
   left: -10px;
   height: 40px;
@@ -196,7 +197,7 @@ nav ul li {
     flex-direction: column;
     position: fixed;
     background-color: var(--body-color);
-    box-shadow: 0 0 25px rgba(255, 239, 239, 0.05);
+    box-shadow: 2px 2px 7px #181414, -2px -2px 3px #201a1a;
   }
 
   nav ul li {

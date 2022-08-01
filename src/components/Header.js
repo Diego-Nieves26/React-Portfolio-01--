@@ -1,7 +1,7 @@
 import "../styles/Header.css";
 import React from "react";
 import Nav from "./Nav";
-import foto from "../assets/Diego-Linkidn.jpg";
+import foto from "../assets/DIEGO.jpg";
 import { Link } from "react-scroll";
 import { useDispatch } from "react-redux";
 import { setSeeSection } from "../store/slices/seeSection.slice";
