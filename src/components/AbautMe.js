@@ -8,10 +8,10 @@ const AbautMe = () => {
     <section id="AbautMe" className={`${active === "AbautMe" && "active"}`}>
       <h3 className="caption">Sobre mi</h3>
       <p className="paragraph">
-        Hola! Soy Diego tengo 18 años, llevo 8 meses educandome sobre desarrollo
-        web, siento que cuando programo no tengo consiencia del tiempo, me
-        gustaria aprender ingles y aleman. Comence a programar por querer crear
-        un juego, y aun no he perdido las ganas de hacerlo.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum totam
+        ipsam libero provident eveniet? Expedita officiis, enim cum amet harum
+        facere eum doloribus assumenda esse maiores incidunt, perspiciatis
+        provident! Repudiandae.
       </p>
       <ul>
         <li>
