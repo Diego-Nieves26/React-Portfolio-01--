@@ -59,9 +59,9 @@ const Header = () => {
         </div>
         <div className="btnCvContact">
           <a
-            className="download-button btn-header btn-cursor-hover"
             href="../assets/CV.pdf"
-            target="_blank"
+            className="download-button btn-header btn-cursor-hover"
+            download
           >
             <svg
               className="css-i6dzq1"

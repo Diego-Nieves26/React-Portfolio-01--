@@ -1,11 +1,13 @@
 import React from "react";
 import { useRef } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import emailjs from "@emailjs/browser";
 import "../styles/Contact.css";
+import { setMessage } from "../store/slices/message.slice";
 
 const Contact = () => {
   const active = useSelector((state) => state.seeSection);
+  const dispatch = useDispatch();
   const form = useRef();
 
   const submit = (e) => {
@@ -19,11 +21,20 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert(result.text);
+          dispatch(
+            setMessage(
+              "Mensaje enviado con exito, te respondere lo mas pronto posible, DEVERAS 👍"
+            )
+          );
         },
         (error) => {
           alert(error.text);
         }
+      )
+      .finally(() =>
+        setTimeout(() => {
+          dispatch(setMessage(null));
+        }, 20000)
       );
   };
   return (

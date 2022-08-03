@@ -1,4 +1,11 @@
-import { Header, AbautMe, Information, Works, Contact } from "./components";
+import {
+  Header,
+  AbautMe,
+  Information,
+  Works,
+  Contact,
+  Message,
+} from "./components";
 import { motion } from "framer-motion";
 import "./styles/App.css";
 
@@ -21,6 +28,7 @@ function App() {
             <p>--Diego Nieves--</p>
           </footer>
         </main>
+        <Message />
       </motion.div>
     </>
   );
