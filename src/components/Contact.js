@@ -30,11 +30,6 @@ const Contact = () => {
         (error) => {
           alert(error.text);
         }
-      )
-      .finally(() =>
-        setTimeout(() => {
-          dispatch(setMessage(null));
-        }, 20000)
       );
   };
   return (

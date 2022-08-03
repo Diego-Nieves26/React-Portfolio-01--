@@ -14,7 +14,8 @@
 
 .card-education span {
   display: block;
-  width: 130px;
+  width: 140px;
+  text-align: center;
   font-size: 10px;
   padding: 3px 10px;
   border: 1px solid var(--tertiary-color);
@@ -29,7 +30,7 @@
 
 .card-education h6 {
   font-size: 12px;
-  margin: 5px 0 5px 10px;
+  margin: 10px 0 10px 10px;
   color: #8c8888;
 }
 
@@ -163,12 +164,28 @@
   align-items: center;
   gap: 10px;
   grid-template-columns: repeat(3, auto);
-  width: 65%;
+  width: 85%;
   margin-top: 10px;
 }
 
 .code-skills-card .code-skill-content ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code-skills-card .code-skill-content ul li i {
   font-size: 40px;
+}
+
+.code-skills-card .code-skill-content ul li img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.code-skills-card .code-skill-content ul li span {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .code-skills-card input:checked ~ .code-skill-content ul {
@@ -178,14 +195,16 @@
 .soft-skill ul {
   margin-left: 10px;
   width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
   gap: 10px;
 }
 
 .soft-skill ul li {
   color: var(--paragraph-color);
   font-size: 12px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.soft-skill ul li i {
+  color: var(--tertiary-color);
 }

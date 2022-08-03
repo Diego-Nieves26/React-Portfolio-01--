@@ -1,10 +1,12 @@
+import { setSeeSection } from "../store/slices/seeSection.slice";
+import { setMessage } from "../store/slices/message.slice";
+import { useDispatch } from "react-redux";
+import foto from "../assets/DIEGO.png";
+import { Link } from "react-scroll";
+import CV from "../assets/CV.pdf";
 import "../styles/Header.css";
 import React from "react";
 import Nav from "./Nav";
-import foto from "../assets/DIEGO.png";
-import { Link } from "react-scroll";
-import { useDispatch } from "react-redux";
-import { setSeeSection } from "../store/slices/seeSection.slice";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -13,6 +15,7 @@ const Header = () => {
       dispatch(setSeeSection(e));
     }
   };
+
   return (
     <header>
       <Nav />
@@ -21,7 +24,9 @@ const Header = () => {
           <div></div>
         </div>
         <div className="presentation">
-          <img src={foto} alt="Naruto" />
+          <div>
+            <img src={foto} alt="Yo" />
+          </div>
           <h1>Diego Nieves</h1>
           <h2>Desarrollador Front-end</h2>
           <ul>
@@ -59,9 +64,16 @@ const Header = () => {
         </div>
         <div className="btnCvContact">
           <a
-            href="../assets/CV.pdf"
+            href={CV}
             className="download-button btn-header btn-cursor-hover"
-            download
+            download="Diego_Nieves_CV"
+            onClick={() =>
+              dispatch(
+                setMessage(
+                  "Gracias por interesarte en mi CV ❤, espero te guste. Si puedes mandame tu feedback"
+                )
+              )
+            }
           >
             <svg
               className="css-i6dzq1"

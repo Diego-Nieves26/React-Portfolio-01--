@@ -1,6 +1,6 @@
-import React from "react";
-import "../styles/AbautMe.css";
 import { useSelector } from "react-redux";
+import "../styles/AbautMe.css";
+import React from "react";
 
 const AbautMe = () => {
   const active = useSelector((state) => state.seeSection);
@@ -8,29 +8,30 @@ const AbautMe = () => {
     <section id="AbautMe" className={`${active === "AbautMe" && "active"}`}>
       <h3 className="caption">Sobre mi</h3>
       <p className="paragraph">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum totam
-        ipsam libero provident eveniet? Expedita officiis, enim cum amet harum
-        facere eum doloribus assumenda esse maiores incidunt, perspiciatis
-        provident! Repudiandae.
+        Hola, soy desarrollador web enfocado en el frontend, amante de los
+        videojuegos y aficionado de las peliculas. Siempre dispuesto a aprender
+        nuevas tecnologías. Soy una persona autodidacta, proactiva, eficaz, que
+        ama la tecnología. Actualmente dedico mi tiempo a estudiar y desarrollar
+        aplicaciones web. Me encantan los desafíos.
       </p>
-      <ul>
-        <li>
-          <h5>Edad...........</h5>
-          <span>18</span>
-        </li>
-        <li>
-          <h5>Nacionalidad...</h5>
-          <span>Peruana</span>
-        </li>
-        <li>
-          <h5>Idiomas........</h5>
-          <span>Español</span>
-        </li>
-        <li>
-          <h5>Pasion.........</h5>
-          <span>Videojuegos</span>
-        </li>
-      </ul>
+      <div className="myInfoCard">
+        <div>
+          <span>Edad</span>
+          <p className="myInfoCardText">18</p>
+        </div>
+        <div>
+          <span>Pais</span>
+          <p className="myInfoCardText">Peru</p>
+        </div>
+        <div>
+          <span>De pequeño jugaba con</span>
+          <p className="myInfoCardText">Legos</p>
+        </div>
+        <div>
+          <span>Me gustaria</span>
+          <p className="myInfoCardText">Conocer el Mundo</p>
+        </div>
+      </div>
     </section>
   );
 };

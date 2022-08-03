@@ -1,25 +1,84 @@
-#AbautMe ul {
-  width: 80%;
-  margin: 30px auto 0;
+/* From uiverse.io by @joe-watson-sbf */
+.myInfoCard {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  height: 200px;
+  border-radius: 4px;
+  background: #060606;
+  display: flex;
+  gap: 5px;
+  padding: 0.4em;
+}
+
+.myInfoCard div {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.5s;
+  border: 1px solid var(--primary-color);
   display: flex;
   justify-content: center;
-  align-items: baseline;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 400px;
+  align-items: center;
+  position: relative;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-#AbautMe ul li {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.myInfoCard div:hover {
+  flex: 4;
+  background-size: cover;
+  background-position: center;
 }
 
-#AbautMe ul li h5 {
-  color: #fff;
-  font-weight: 700;
+.myInfoCard div span {
+  min-width: 10em;
+  padding: 0.5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all 0.5s;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 0.1em;
 }
 
-#AbautMe ul li span {
-  color: #b5b5b5;
+.myInfoCard div:hover span {
+  transform: rotate(0);
+  color: aliceblue;
+}
+
+.myInfoCardText {
+  min-width: 100px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 12px;
+  opacity: 0;
+  border-radius: 10px;
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  transition: 0.3s;
+}
+
+.myInfoCard div:hover .myInfoCardText {
+  opacity: 1;
+}
+
+.myInfoCard div:nth-child(1):hover {
+  background-image: url("https://ih1.redbubble.net/image.921223287.0352/st,small,507x507-pad,600x600,f8f8f8.jpg");
+}
+
+.myInfoCard div:nth-child(2):hover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg");
+}
+
+.myInfoCard div:nth-child(3):hover {
+  background-image: url("https://www.ikea.com/mx/en/images/products/bygglek-201-piece-lego-r-brick-set-mixed-colours__0915518_pe784785_s5.jpg");
+}
+
+.myInfoCard div:nth-child(4):hover {
+  background-image: url("https://www.lavanguardia.com/files/image_948_465/uploads/2019/01/02/5fa52129a7233.jpeg");
 }

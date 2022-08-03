@@ -1,6 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import "../styles/Information.css";
+import iSequelize from "../assets/icon-Sequelize.svg";
+import iExpress from "../assets/icon-express.svg";
 
 const Information = () => {
   const active = useSelector((state) => state.seeSection);
@@ -11,8 +13,7 @@ const Information = () => {
     >
       <h2 className="caption">Informacion</h2>
       <p className="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-        minus.
+        Algunos datos importantes sobre mi vida profecional.
       </p>
       <div className="education">
         <h2 className="secondary-subtitle">
@@ -21,16 +22,16 @@ const Information = () => {
         </h2>
         <ul>
           <li className="card-education">
-            <span>FEB-2022-NOV-2022</span>
+            <span>FEB_2022 - NOV_2022</span>
             <h4>Academlo</h4>
             <h6>Bootcamp-Mexico</h6>
             <p>Programación Web Full-Stack y Ciencias de Computación.</p>
           </li>
           <li className="card-education">
-            <span>AGO-2021-ENE-2022</span>
-            <h4>Udemy-Youtube</h4>
+            <span>AGO_2021 - ...</span>
+            <h4>Udemy - Youtube - Google - ...</h4>
             <h6>Autodidacta</h6>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>Diferentes conceptos de la Programación.</p>
           </li>
         </ul>
       </div>
@@ -39,8 +40,8 @@ const Information = () => {
           <i className="bx bxs-wrench bx-tada"></i>Habilidades
         </h2>
         <p className="paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt,
-          voluptas!
+          Diferentes habilidades tecnicas y sociales que aprendi durante mi
+          proceso de Educacion.
         </p>
         <div className="code-skill">
           <h2 className="skills-section-title">Codigo</h2>
@@ -62,24 +63,31 @@ const Information = () => {
                 <ul>
                   <li>
                     <i className="bx bxl-html5"></i>
+                    <span>Intermedio</span>
                   </li>
                   <li>
                     <i className="bx bxl-css3"></i>
+                    <span>Intermedio</span>
                   </li>
                   <li>
                     <i className="bx bxl-react"></i>
+                    <span>Intermedio</span>
                   </li>
                   <li>
                     <i className="bx bxl-redux"></i>
+                    <span>Principiante</span>
                   </li>
                   <li>
                     <i className="bx bxl-bootstrap"></i>
+                    <span>Novato</span>
                   </li>
                   <li>
                     <i className="bx bxl-vuejs"></i>
+                    <span>Aprendiendo</span>
                   </li>
                   <li>
                     <i className="bx bxl-sass"></i>
+                    <span>Aprendiendo</span>
                   </li>
                 </ul>
               </div>
@@ -96,9 +104,23 @@ const Information = () => {
                 <ul>
                   <li>
                     <i className="bx bxl-nodejs"></i>
+                    <span>Intermedio</span>
                   </li>
                   <li>
                     <i className="bx bxl-postgresql"></i>
+                    <span>Intermedio</span>
+                  </li>
+                  <li>
+                    <i className="bx bxl-mongodb"></i>
+                    <span>Principiante</span>
+                  </li>
+                  <li>
+                    <img src={iSequelize} alt="icon sequelize" />
+                    <span>Intermedio</span>
+                  </li>
+                  <li>
+                    <img src={iExpress} alt="icon sequelize" />
+                    <span>Intermedio</span>
                   </li>
                 </ul>
               </div>
@@ -107,7 +129,7 @@ const Information = () => {
               <input type="radio" name="acc" id="acc3" />
               <label htmlFor="acc3">
                 <h4>
-                  <i className="bx bx-bookmark-alt-plus"></i>
+                  <i className="bx bx-wrench"></i>
                 </h4>
                 <h5>Herramientas</h5>
               </label>
@@ -115,15 +137,19 @@ const Information = () => {
                 <ul>
                   <li>
                     <i className="bx bxl-git"></i>
+                    <span>Principiante</span>
                   </li>
                   <li>
                     <i className="bx bxl-firebase"></i>
+                    <span>Novato</span>
                   </li>
                   <li>
                     <i className="bx bxl-visual-studio"></i>
+                    <span>Intermedio</span>
                   </li>
                   <li>
-                    <i className="bx bxl-aws"></i>
+                    <i className="bx bxl-github"></i>
+                    <span>Intermedio</span>
                   </li>
                 </ul>
               </div>
@@ -150,6 +176,16 @@ const Information = () => {
             </li>
             <li>
               <i className="bx bx-check-double"></i> Empatico
+            </li>
+            <li>
+              <i className="bx bx-check-double"></i> Adaptabilidad
+            </li>
+            <li>
+              <i className="bx bx-check-double"></i> Aprendizaje rapido
+            </li>
+            <li>
+              <i className="bx bx-check-double"></i> Organización y
+              planificación
             </li>
           </ul>
         </div>
