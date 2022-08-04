@@ -8,8 +8,8 @@
   display: inline-block;
   width: 100%;
   padding: 10px;
-  border-bottom: 1px solid var(--tertiary-color);
-  color: aliceblue;
+  border-bottom: 1px solid var(--paragraph-color);
+  color: var(--paragraph-color);
   text-align: center;
   transition: 0.3s;
 }
@@ -36,12 +36,11 @@
 
 .card {
   width: 100%;
-  max-width: 280px;
+  max-width: 240px;
   height: 170px;
   transition: all 0.7s;
   overflow: hidden;
   z-index: 9;
-  background-color: aliceblue;
 }
 
 .card:hover {
@@ -59,7 +58,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--color-section);
+  background: #000;
 }
 
 .card .header .img-box img {

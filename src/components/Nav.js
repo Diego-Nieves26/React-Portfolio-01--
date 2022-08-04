@@ -41,7 +41,7 @@ const Nav = () => {
               activeLink === "AbautMe" ? "active-link" : "navigation-links"
             }`}
             to="AbautMe"
-            offset={window.screen.width >= 561 ? -20 : -75}
+            offset={window.screen.width >= 561 ? -20 : -65}
             smooth={true}
             duration={500}
             onClick={() => activeCard("AbautMe")}

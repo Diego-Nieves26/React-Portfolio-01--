@@ -95,11 +95,10 @@
 .code-skills-card label h4 {
   width: 40px;
   height: 40px;
-  background: #333;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--tertiary-color);
+  color: #fff;
   font-size: 1.2em;
   border-radius: 5px;
   margin-right: 10px;
@@ -137,7 +136,7 @@
 }
 
 .code-skills-card input:checked ~ label h5 {
-  background-color: var(--tertiary-color);
+  background-color: #fff;
   padding: 2px 10px;
   color: #333;
   border-radius: 2px;
@@ -176,6 +175,7 @@
 
 .code-skills-card .code-skill-content ul li i {
   font-size: 40px;
+  color: #fff;
 }
 
 .code-skills-card .code-skill-content ul li img {

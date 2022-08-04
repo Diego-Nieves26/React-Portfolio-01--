@@ -11,6 +11,7 @@ export const seeSectionSlice = createSlice({
 export const { setSeeSection } = seeSectionSlice.actions;
 
 export const actionNav = () => (dispatch) => {
+  console.log(window.scrollY);
   if (window.screen.width <= 560) {
     if (window.scrollY <= 600) {
       dispatch(setSeeSection(null));
@@ -20,7 +21,7 @@ export const actionNav = () => (dispatch) => {
       dispatch(setSeeSection("Information"));
     } else if (window.scrollY >= 2460 && window.scrollY <= 3800) {
       dispatch(setSeeSection("Projects"));
-    } else if (window.scrollY >= 3800) {
+    } else if (window.scrollY >= 4800) {
       dispatch(setSeeSection("Contact"));
     }
   }

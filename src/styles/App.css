@@ -12,10 +12,29 @@
 
 :root {
   --body-color: #000;
-  --primary-color: #32d4a4;
+  --primary-color: #00dfd8;
   --tertiary-color: rgb(255, 255, 255);
   --color-section: rgba(5, 5, 5, 0.95);
   --paragraph-color: #999;
+  --solid-color: #060606;
+  --transparent-color: rgba(0, 0, 0, 0.7);
+  --subtitle-color: #fff;
+  --input-bg: rgb(1, 1, 1);
+  --shadow-color: #181414;
+  --border-radius: 10px;
+}
+
+body.light {
+  --body-color: #fff;
+  --primary-color: #000;
+  --tertiary-color: #565656;
+  --color-section: rgba(235, 235, 235, 0.8);
+  --paragraph-color: #55596c;
+  --solid-color: rgb(220, 220, 220);
+  --transparent-color: rgba(150, 150, 150, 0.9);
+  --subtitle-color: #010101;
+  --input-bg: rgb(256, 256, 256);
+  --shadow-color: #c1c1c1;
   --border-radius: 10px;
 }
 
@@ -140,7 +159,7 @@ footer {
 
 footer p {
   font-size: 10px;
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--subtitle-color);
 }
 
 @media (min-width: 560px) {

@@ -1,11 +1,10 @@
-/* From uiverse.io by @joe-watson-sbf */
 .myInfoCard {
   width: 100%;
   max-width: 350px;
   margin: auto;
   height: 200px;
   border-radius: 4px;
-  background: #060606;
+  background: var(--solid-color);
   display: flex;
   gap: 5px;
   padding: 0.4em;
@@ -15,7 +14,6 @@
   height: 100%;
   flex: 1;
   overflow: hidden;
-  cursor: pointer;
   border-radius: 2px;
   transition: all 0.5s;
   border: 1px solid var(--primary-color);
@@ -24,7 +22,7 @@
   align-items: center;
   position: relative;
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--transparent-color);
 }
 
 .myInfoCard div:hover {
@@ -46,7 +44,7 @@
 
 .myInfoCard div:hover span {
   transform: rotate(0);
-  color: aliceblue;
+  color: #fff;
 }
 
 .myInfoCardText {
@@ -58,8 +56,8 @@
   font-size: 12px;
   opacity: 0;
   border-radius: 10px;
-  color: var(--tertiary-color);
-  border: 1px solid var(--tertiary-color);
+  color: #fff;
+  border: 1px solid #fff;
   transition: 0.3s;
 }
 

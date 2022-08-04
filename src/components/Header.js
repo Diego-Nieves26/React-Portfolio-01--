@@ -7,12 +7,23 @@ import CV from "../assets/CV.pdf";
 import "../styles/Header.css";
 import React from "react";
 import Nav from "./Nav";
+import { useState } from "react";
 
 const Header = () => {
+  const [darkTheme, setDarkTheme] = useState(true);
   const dispatch = useDispatch();
   const activeCard = (e) => {
     if (window.screen.width >= 1100) {
       dispatch(setSeeSection(e));
+    }
+  };
+  const changeTheme = (theme) => {
+    setDarkTheme(theme);
+    console.log(darkTheme);
+    if (theme) {
+      document.body.classList.remove("light");
+    } else {
+      document.body.classList.add("light");
     }
   };
 
@@ -21,6 +32,16 @@ const Header = () => {
       <Nav />
       <div>
         <div className="background">
+          <article>
+            <label className="switch btn-cursor-hover">
+              <input
+                type="checkbox"
+                onChange={(e) => changeTheme(e.target.checked)}
+                checked={darkTheme}
+              />
+              <span className="slider"></span>
+            </label>
+          </article>
           <div></div>
         </div>
         <div className="presentation">

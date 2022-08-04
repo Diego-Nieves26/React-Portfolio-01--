@@ -46,14 +46,9 @@ const Information = () => {
         <div className="code-skill">
           <h2 className="skills-section-title">Codigo</h2>
           <div className="code-skill-container ">
-            <div className="code-skills-card">
-              <input
-                type="radio"
-                className="btn-cursor-hover"
-                name="acc"
-                id="acc1"
-              />
-              <label htmlFor="acc1">
+            <div className="code-skills-card btn-cursor-hover">
+              <input type="radio" name="acc" id="acc1" />
+              <label htmlFor="acc1" className="btn-cursor-hover">
                 <h4>
                   <i className="bx bx-code-alt"></i>
                 </h4>
@@ -92,9 +87,9 @@ const Information = () => {
                 </ul>
               </div>
             </div>
-            <div className="code-skills-card">
+            <div className="code-skills-card btn-cursor-hover">
               <input type="radio" name="acc" id="acc2" />
-              <label htmlFor="acc2">
+              <label htmlFor="acc2" className="btn-cursor-hover">
                 <h4>
                   <i className="bx bx-server"></i>
                 </h4>
@@ -125,9 +120,9 @@ const Information = () => {
                 </ul>
               </div>
             </div>
-            <div className="code-skills-card">
+            <div className="code-skills-card btn-cursor-hover">
               <input type="radio" name="acc" id="acc3" />
-              <label htmlFor="acc3">
+              <label htmlFor="acc3" className="btn-cursor-hover">
                 <h4>
                   <i className="bx bx-wrench"></i>
                 </h4>

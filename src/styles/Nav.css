@@ -197,7 +197,8 @@ nav ul li {
     flex-direction: column;
     position: fixed;
     background-color: var(--body-color);
-    box-shadow: 2px 2px 7px #181414, -2px -2px 3px #201a1a;
+    box-shadow: 2px 2px 7px var(--shadow-color),
+      -2px -2px 3px var(--shadow-color);
   }
 
   nav ul li {
