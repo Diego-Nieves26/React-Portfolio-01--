@@ -68,7 +68,7 @@ const Works = () => {
               </div>
             </div>
             <div className="content">
-              <h1 className="title">{project.name}</h1>
+              <h2 className="title">{project.name}</h2>
               <div>
                 <a
                   className="btn-cursor-hover"
@@ -78,14 +78,16 @@ const Works = () => {
                 >
                   <i className="bx bxl-github"></i>
                 </a>
-                <a
-                  className="btn-cursor-hover"
-                  target="_blank"
-                  rel="noreferrer"
-                  href={project.web}
-                >
-                  <i className="bx bx-windows"></i>
-                </a>
+                {project.category !== "back" && (
+                  <a
+                    className="btn-cursor-hover"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={project.web}
+                  >
+                    <i className="bx bx-windows"></i>
+                  </a>
+                )}
               </div>
             </div>
           </motion.li>

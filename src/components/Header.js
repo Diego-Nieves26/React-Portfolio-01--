@@ -19,7 +19,6 @@ const Header = () => {
   };
   const changeTheme = (theme) => {
     setDarkTheme(theme);
-    console.log(darkTheme);
     if (theme) {
       document.body.classList.remove("light");
     } else {
