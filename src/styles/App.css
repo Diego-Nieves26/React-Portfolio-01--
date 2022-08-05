@@ -72,6 +72,7 @@ body {
   color: var(--primary-color);
   font-weight: 700;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .active-link {
@@ -108,6 +109,7 @@ body {
   font-weight: 700;
   margin-left: 5px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .secondary-subtitle i {

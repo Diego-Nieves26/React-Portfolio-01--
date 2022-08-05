@@ -9,10 +9,10 @@ const AbautMe = () => {
       <h3 className="caption">Sobre mi</h3>
       <p className="paragraph">
         Hola, soy desarrollador web enfocado en el frontend, amante de los
-        videojuegos y aficionado de las peliculas. Siempre dispuesto a aprender
+        videojuegos y aficionado de las películas. Siempre dispuesto a aprender
         nuevas tecnologías. Soy una persona autodidacta, proactiva, eficaz, que
-        ama la tecnología. Actualmente dedico mi tiempo a estudiar y desarrollar
-        aplicaciones web. Me encantan los desafíos.
+        ama la tecnología. Actualmente, dedico mi tiempo a estudiar y
+        desarrollar aplicaciones web. Me encantan los desafíos.
       </p>
       <div className="myInfoCard">
         <div>
@@ -20,15 +20,15 @@ const AbautMe = () => {
           <p className="myInfoCardText">18</p>
         </div>
         <div>
-          <span>Pais</span>
-          <p className="myInfoCardText">Peru</p>
+          <span>País</span>
+          <p className="myInfoCardText">Perú</p>
         </div>
         <div>
           <span>De pequeño jugaba con</span>
           <p className="myInfoCardText">Legos</p>
         </div>
         <div>
-          <span>Me gustaria</span>
+          <span>Me gustaría</span>
           <p className="myInfoCardText">Conocer el Mundo</p>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { animateScroll as scroll } from "react-scroll";
 import { setSeeSection } from "../store/slices/seeSection.slice";
 import { actionNav } from "../store/slices/seeSection.slice";
+import { setMessage } from "../store/slices/message.slice";
 
 const Nav = () => {
   const [scrollToTop, setScrollToTop] = useState(false);
@@ -27,6 +28,15 @@ const Nav = () => {
   });
 
   const activeCard = (e) => {
+    if (e === "Projects") {
+      setTimeout(() => {
+        dispatch(
+          setMessage(
+            "Para más información de cada proyecto recuerda visitar mi Github."
+          )
+        );
+      }, 2000);
+    }
     if (window.screen.width >= 1100) {
       dispatch(setSeeSection(e));
     }
@@ -62,7 +72,7 @@ const Nav = () => {
             onClick={() => activeCard("Information")}
           >
             <i className="bx bxs-info-circle"></i>
-            <span>Informacion</span>
+            <span>Información</span>
           </Link>
         </li>
         <li>

@@ -25,7 +25,7 @@ const Works = () => {
     <section id="Projects" className={`${active === "Projects" && "active"}`}>
       <h2 className="caption">Proyectos</h2>
       <p className="paragraph">
-        Todos las App Webs que realize aplicando lo aprendido en Academlo.
+        Todos las Apps Webs que realicé aplicando lo aprendido en Academlo.
       </p>
       <div>
         <span

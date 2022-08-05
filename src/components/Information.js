@@ -11,14 +11,14 @@ const Information = () => {
       id="Information"
       className={`${active === "Information" && "active"}`}
     >
-      <h2 className="caption">Informacion</h2>
+      <h2 className="caption">Información</h2>
       <p className="paragraph">
-        Algunos datos importantes sobre mi vida profecional.
+        Algunos datos importantes sobre mi vida profesional.
       </p>
       <div className="education">
         <h2 className="secondary-subtitle">
           <i className="bx bxs-graduation bx-tada bx-flip-horizontal"></i>
-          Educacion
+          Educación
         </h2>
         <ul>
           <li className="card-education">
@@ -40,11 +40,11 @@ const Information = () => {
           <i className="bx bxs-wrench bx-tada"></i>Habilidades
         </h2>
         <p className="paragraph">
-          Diferentes habilidades tecnicas y sociales que aprendi durante mi
-          proceso de Educacion.
+          Diferentes habilidades técnicas y sociales que aprendí durante mi
+          proceso de Educación.
         </p>
         <div className="code-skill">
-          <h2 className="skills-section-title">Codigo</h2>
+          <h2 className="skills-section-title">Código</h2>
           <div className="code-skill-container ">
             <div className="code-skills-card btn-cursor-hover">
               <input type="radio" name="acc" id="acc1" />
