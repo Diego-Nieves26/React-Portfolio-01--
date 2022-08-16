@@ -56,13 +56,6 @@ const Header = () => {
                 href="https://github.com/Diego-Nieves26"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() =>
-                  dispatch(
-                    setMessage(
-                      "Hey, Gracias por la visita a mi Github, si hay algo que te agrado 😉, házmelo saber con un mensajito."
-                    )
-                  )
-                }
               >
                 <i className="bx bxl-github"></i>
               </a>
@@ -73,13 +66,6 @@ const Header = () => {
                 href="https://www.linkedin.com/in/diego-nieves-04b409242/"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() =>
-                  dispatch(
-                    setMessage(
-                      "Vamos 🥳, espero te gusto mi Linkedin, recuerda que puedes enviar mensajitos, y si tienes una recomendación no dudes en hacerla."
-                    )
-                  )
-                }
               >
                 <i className="bx bxl-linkedin"></i>
               </a>
@@ -90,13 +76,6 @@ const Header = () => {
                 href="https://es.stackoverflow.com/users/295820/diego-nieves"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() =>
-                  dispatch(
-                    setMessage(
-                      "Sé que mi cuenta de StackOverflow esta vacía, pero si me lo haces con un mensaje, talvez se llene 😏."
-                    )
-                  )
-                }
               >
                 <i className="bx bxl-stack-overflow"></i>
               </a>
