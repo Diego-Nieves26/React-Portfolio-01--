@@ -85,7 +85,7 @@ const Header = () => {
         <div className="btnCvContact">
           <a
             href={CV}
-            className="download-button btn-header btn-cursor-hover"
+            className="download-button btn-header btn-cursor-hover "
             download="Diego_Nieves_CV"
             onClick={() =>
               dispatch(

@@ -8,6 +8,18 @@ import {
 } from "./components";
 import { motion } from "framer-motion";
 import "./styles/App.css";
+import { magicMouse } from "magicmouse.js";
+
+const options = {
+  cursorOuter: "circle-basic",
+  hoverEffect: "circle-move",
+  hoverItemMove: false,
+  defaultCursor: true,
+  outerWidth: 30,
+  outerHeight: 30,
+};
+
+magicMouse(options);
 
 function App() {
   return (
