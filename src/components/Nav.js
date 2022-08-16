@@ -28,15 +28,6 @@ const Nav = () => {
   });
 
   const activeCard = (e) => {
-    if (e === "Projects") {
-      setTimeout(() => {
-        dispatch(
-          setMessage(
-            "Para más información de cada proyecto recuerda visitar mi Github."
-          )
-        );
-      }, 2000);
-    }
     if (window.screen.width >= 1100) {
       dispatch(setSeeSection(e));
     }
