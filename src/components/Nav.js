@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { animateScroll as scroll } from "react-scroll";
 import { setSeeSection } from "../store/slices/seeSection.slice";
 import { actionNav } from "../store/slices/seeSection.slice";
-import { setMessage } from "../store/slices/message.slice";
 
 const Nav = () => {
   const [scrollToTop, setScrollToTop] = useState(false);
