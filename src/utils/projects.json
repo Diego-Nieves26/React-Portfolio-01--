@@ -4,8 +4,8 @@
     "category": "front",
     "name": "Weather-App",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Weather-App--/main/src/assets/img.png",
-    "gitHub": "https://github.com/Diego-Nieves26/React-Weather-App.git",
-    "web": "https://polite-pithivier-90a030.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/React-Weather-App--.git",
+    "web": "https://incandescent-cannoli-66ab91.netlify.app/"
   },
 
   {
@@ -55,8 +55,7 @@
     "category": "back",
     "name": "Games Store",
     "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/API-Games-Store--.git"
   },
 
   {
@@ -64,39 +63,41 @@
     "category": "back",
     "name": "Music Player",
     "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/Music-player--.git"
   },
   {
     "id": 10,
     "category": "back",
     "name": "Academlo Meals",
     "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/API-Academlo-Meals--.git"
   },
   {
     "id": 7,
     "category": "back",
     "name": "Check In Check Out",
     "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/Api-Check-in_Check-out--.git"
   },
   {
     "id": 8,
     "category": "back",
     "name": "Tasks",
     "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/API-Tasks--.git"
   },
   {
     "id": 11,
     "category": "back",
     "name": "Academlo Store",
     "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "gitHub": "https://github.com/Diego-Nieves26/Academlo-store--.git"
+  },
+  {
+    "id": 13,
+    "category": "back",
+    "name": "CRUD",
+    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
+    "gitHub": "https://github.com/Diego-Nieves26/API-Crud--.git"
   }
 ]
