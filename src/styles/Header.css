@@ -4,12 +4,14 @@ header {
   max-width: 700px;
   margin: auto;
   position: relative;
-  z-index: 10;
+  z-index: 999;
   margin-bottom: 40px;
+  max-height: 690px;
 }
 
 header > div {
   position: relative;
+  left: 0;
   padding: 50px;
   background-color: var(--solid-color);
   border-radius: 0 0 15px 15px;
@@ -269,7 +271,7 @@ input:checked + .slider:before {
 
 @media (min-width: 1100px) {
   header {
-    margin: 30px 0 0 70px;
+    margin: 30px 0 0 0;
   }
   header > div {
     width: 500px;

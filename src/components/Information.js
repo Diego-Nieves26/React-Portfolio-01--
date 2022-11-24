@@ -22,6 +22,12 @@ const Information = () => {
         </h2>
         <ul>
           <li className="card-education">
+            <span>NOV_2022 - ENE_2023</span>
+            <h4>Certus</h4>
+            <h6>Instituto-Perú</h6>
+            <p>Desarrollo de aplicaciones móviles con Flutter</p>
+          </li>
+          <li className="card-education">
             <span>FEB_2022 - NOV_2022</span>
             <h4>Academlo</h4>
             <h6>Bootcamp-Mexico</h6>
@@ -77,8 +83,16 @@ const Information = () => {
                     <span>Novato</span>
                   </li>
                   <li>
+                    <i class="bx bxl-tailwind-css"></i>
+                    <span>Intermedio</span>
+                  </li>
+                  <li>
                     <i className="bx bxl-vuejs"></i>
                     <span>Aprendiendo</span>
+                  </li>
+                  <li>
+                    <i class="bx bxl-flutter"></i>
+                    <span>Novato</span>
                   </li>
                   <li>
                     <i className="bx bxl-sass"></i>
@@ -110,6 +124,10 @@ const Information = () => {
                     <span>Principiante</span>
                   </li>
                   <li>
+                    <i class="bx bxl-python"></i>
+                    <span>Principiante</span>
+                  </li>
+                  <li>
                     <img src={iSequelize} alt="icon sequelize" />
                     <span>Intermedio</span>
                   </li>
@@ -132,7 +150,11 @@ const Information = () => {
                 <ul>
                   <li>
                     <i className="bx bxl-git"></i>
-                    <span>Principiante</span>
+                    <span>Intermedio</span>
+                  </li>
+                  <li>
+                    <i class="bx bxl-heroku"></i>
+                    <span>Novato</span>
                   </li>
                   <li>
                     <i className="bx bxl-firebase"></i>
