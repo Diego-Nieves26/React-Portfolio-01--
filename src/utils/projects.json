@@ -5,7 +5,8 @@
     "name": "Weather-App",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Weather-App--/main/src/assets/img.png",
     "gitHub": "https://github.com/Diego-Nieves26/React-Weather-App--.git",
-    "web": "https://incandescent-cannoli-66ab91.netlify.app/"
+    "web": "https://incandescent-cannoli-66ab91.netlify.app/",
+    "description": "App que muestra datos del clima segun tu ubicacion"
   },
 
   {
@@ -14,7 +15,8 @@
     "name": "PokeApi",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Pokedex/main/src/assets/img.png",
     "gitHub": "https://github.com/Diego-Nieves26/React-Pokedex.git",
-    "web": "https://lustrous-marigold-b9f6ee.netlify.app/"
+    "web": "https://lustrous-marigold-b9f6ee.netlify.app/",
+    "description": "Lsta todos los pokemones, a la vez muestra sus detalles"
   },
 
   {
@@ -23,7 +25,8 @@
     "name": "Ecommerce",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Ecommerce/main/src/assets/img.png",
     "gitHub": "https://github.com/Diego-Nieves26/React-Ecommerce.git",
-    "web": "https://joyful-melomakarona-6f3db3.netlify.app"
+    "web": "https://joyful-melomakarona-6f3db3.netlify.app",
+    "description": "Simulacion de una tienda virtual"
   },
 
   {
@@ -32,7 +35,8 @@
     "name": "CRUD",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Crud--/main/src/assets/img.png",
     "gitHub": "https://github.com/Diego-Nieves26/React-Crud--.git",
-    "web": "https://papaya-malasada-686ac1.netlify.app/"
+    "web": "https://papaya-malasada-686ac1.netlify.app/",
+    "description": "Crea, lee, actualiza y elimina datos"
   },
   {
     "id": 4,
@@ -40,7 +44,8 @@
     "name": "Rick-and-Morty",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Rick-and-Morty--/main/src/assets/img.png",
     "gitHub": "https://github.com/Diego-Nieves26/React-Rick-and-Morty--.git",
-    "web": "https://subtle-banoffee-4014e9.netlify.app/"
+    "web": "https://subtle-banoffee-4014e9.netlify.app/",
+    "description": "Lista personajes de la serie Rick And Morty"
   },
   {
     "id": 6,
@@ -48,56 +53,63 @@
     "name": "Crypto-Wall",
     "img": "https://raw.githubusercontent.com/Diego-Nieves26/Vue-Crypto-Wall/main/src/assets/img.png",
     "gitHub": "https://github.com/Diego-Nieves26/Vue-Crypto-Wall.git",
-    "web": "https://startling-dragon-f6444e.netlify.app/"
+    "web": "https://startling-dragon-f6444e.netlify.app/",
+    "description": "Muestra datos del mundo crypto"
   },
   {
     "id": 9,
     "category": "back",
     "name": "Games Store",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/API-Games-Store--.git"
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
+    "gitHub": "https://github.com/Diego-Nieves26/API-Games-Store--.git",
+    "description": "..."
   },
 
   {
     "id": 12,
     "category": "back",
     "name": "Music Player",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
     "gitHub": "https://github.com/Diego-Nieves26/Music-player--.git"
   },
   {
     "id": 10,
     "category": "back",
     "name": "Academlo Meals",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/API-Academlo-Meals--.git"
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
+    "gitHub": "https://github.com/Diego-Nieves26/API-Academlo-Meals--.git",
+    "description": "..."
   },
   {
     "id": 7,
     "category": "back",
     "name": "Check In Check Out",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Api-Check-in_Check-out--.git"
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
+    "gitHub": "https://github.com/Diego-Nieves26/Api-Check-in_Check-out--.git",
+    "description": "..."
   },
   {
     "id": 8,
     "category": "back",
     "name": "Tasks",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/API-Tasks--.git"
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
+    "gitHub": "https://github.com/Diego-Nieves26/API-Tasks--.git",
+    "description": "..."
   },
   {
     "id": 11,
     "category": "back",
     "name": "Academlo Store",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/Academlo-store--.git"
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
+    "gitHub": "https://github.com/Diego-Nieves26/Academlo-store--.git",
+    "description": "..."
   },
   {
     "id": 13,
     "category": "back",
     "name": "CRUD",
-    "img": "https://cdn-icons-png.flaticon.com/512/103/103093.png",
-    "gitHub": "https://github.com/Diego-Nieves26/API-Crud--.git"
+    "img": "https://gamanet.pe/wp-content/uploads/2016/08/api.png",
+    "gitHub": "https://github.com/Diego-Nieves26/API-Crud--.git",
+    "description": "..."
   }
 ]

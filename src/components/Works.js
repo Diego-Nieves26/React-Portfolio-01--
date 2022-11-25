@@ -69,6 +69,7 @@ const Works = () => {
             </div>
             <div className="content">
               <h2 className="title">{project.name}</h2>
+              <p>{project.description}</p>
               <div>
                 <a
                   className="btn-cursor-hover"
