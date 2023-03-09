@@ -33,9 +33,9 @@
     "id": 5,
     "category": "full",
     "name": "CRUD",
-    "img": "https://raw.githubusercontent.com/Diego-Nieves26/React-Crud--/main/src/assets/img.png",
-    "gitHub": "https://github.com/Diego-Nieves26/React-Crud--.git",
-    "web": "https://papaya-malasada-686ac1.netlify.app/",
+    "img": "https://raw.githubusercontent.com/Diego-Nieves26/Full-CRUD-App--/main/client/src/assets/bg.png",
+    "gitHub": "https://github.com/Diego-Nieves26/Full-CRUD-App--",
+    "web": "https://vocal-boba-408f1c.netlify.app/",
     "description": "Crea, lee, actualiza y elimina datos"
   },
   {

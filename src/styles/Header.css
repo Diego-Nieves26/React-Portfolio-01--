@@ -30,7 +30,7 @@ header > div {
 .background > div {
   width: 100%;
   height: 100%;
-  background-image: url("https://blog.centrodeelearning.com/wp-content/uploads/2021/05/programmer-or-computer-hacker-typing-on-laptop-key-PSAN67J.png");
+  background-image: url("../assets/bg.avif");
   background-position: center;
   mix-blend-mode: multiply;
   filter: grayscale(100%);
